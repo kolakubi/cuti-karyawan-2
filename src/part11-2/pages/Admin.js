@@ -36,7 +36,10 @@ export class Admin extends Component{
 			<div>
 			{
 				this.state.session ? 
-				<h1 style={{color: "white"}}>Hallo {this.state.session}</h1>
+				<div>
+					<h1 style={{color: "white"}}>Hallo {this.state.session}</h1>
+					<h3>Data Karyawan</h3>	
+				</div>
 				: <h1 style={{color: "white"}}>Fuck Off !!!</h1>
 			}
 			</div>
