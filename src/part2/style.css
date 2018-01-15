@@ -1,0 +1,29 @@
+.judul{
+	text-align: center;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.ThePlayList-con{
+	padding: 10px;
+	background-color: #4f92ff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.ThePlayList{
+	background-color: #1b1c1a;
+	width: 300px;
+	border-radius: 10px;
+	border: 8px solid white;
+	text-align: center;
+	color: #ff451c;
+	font-family: sans-serif;
+}
+
+.ThePlayList img{
+	max-width: 100%;
+}

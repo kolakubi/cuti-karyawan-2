@@ -1,0 +1,65 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	background-color: black;
+}
+
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.app-container{
+	background-image: url("/part4/bg1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.jam{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 100px;
+}
+
+.button-navigasi-con{
+	width: 100%;
+	padding: 20px;
+}
+
+.mal-button{
+	margin: 10px;
+	background-color: transparent;
+	border: 5px solid white;
+	border-radius: 20px;
+	font-family: sans-serif;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: white;
+	padding: 1em 2em;
+	cursor: pointer;
+}
+
+.mal-form{
+	flex-direction: column;
+	border: 2px solid white;
+	margin: 5px;
+	padding: 10px;
+}
+
+.mal-form input[type="text"], 
+.mal-form input[type="password"]{
+	border: 3px solid white;
+	background-color: transparent;
+	color: white;
+	padding: 0.5em 2em;
+	font-family: sans-serif;
+	font-size: 18px;
+	margin: 5px;
+}

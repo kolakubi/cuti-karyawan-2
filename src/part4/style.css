@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.playlist-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-image: url('bg-1.jpg');
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+.playList-class{
+	border-radius: 10px;
+	border: 8px dashed black;
+	width: 300px;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 5px;
+	text-align: center;
+	background-color: #1c1819;
+	color: white;
+}
+
+.dj-thumb-image{
+	max-width: 80%;
+	border-radius: 50%;
+	animation: muter 3s linear infinite;
+}
+
+.play-btn-image{
+	max-width: 30%!important;
+}
+
+@keyframes muter{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
