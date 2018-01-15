@@ -11,6 +11,10 @@ body{
 	justify-content: center;
 }
 
+.standar-transition{
+	transition: all 0.3s ease-in-out;
+}
+
 .app-container{
 	background-image: url("/part4/bg1.jpg");
 	background-size: cover;
@@ -62,4 +66,25 @@ body{
 	font-family: sans-serif;
 	font-size: 18px;
 	margin: 5px;
+}
+
+.AdminListKaryawan{
+	border: 3px solid white;
+	padding: 10px;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.AdminListKaryawanItem{
+	background-color: white;
+	font-family: sans-serif;
+	font-weight: 300;
+	padding: 1em 2em;
+	cursor: pointer;
+	margin: 5px auto;
+}
+
+.AdminListKaryawanItem:hover{
+	background-color: yellow;
+	color: grey;
 }
